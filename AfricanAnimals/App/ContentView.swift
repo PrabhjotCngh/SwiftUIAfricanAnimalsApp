@@ -9,13 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     //MARK: - Properties
+    let animals: [Animal] = Bundle.main.decode("animals.json")
     
     //MARK: - Body
     var body: some View {
-        VStack {
-            Text("Content")
-        }
-        .padding()
+        NavigationView {
+            List {
+                CoverImageView()
+                    .frame(height: 300)
+                    .listRowInsets(EdgeInsets())
+                ForEach(animals) { animal in
+                    AnimalListItemView(animal: animal)
+                }
+            } //: List
+            .listStyle(.plain)
+            .navigationTitle("Africa")
+            .navigationBarTitleDisplayMode(.large)
+        } //: NavigationView
     }
 }
 
