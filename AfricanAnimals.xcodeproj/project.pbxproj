@@ -41,6 +41,9 @@
 		8DE7C01C2A20FB74004853A1 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7C01B2A20FB74004853A1 /* InsetMapView.swift */; };
 		8DE7C01E2A2100CD004853A1 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7C01D2A2100CD004853A1 /* ExternalWebLinkView.swift */; };
 		8DE7C0202A2107DA004853A1 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7C01F2A2107DA004853A1 /* VideoModel.swift */; };
+		8DE7C0222A2109FE004853A1 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7C0212A2109FE004853A1 /* VideoListItemView.swift */; };
+		8DE7C0242A211BA3004853A1 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7C0232A211BA3004853A1 /* VideoPlayerView.swift */; };
+		8DE7C0272A211C93004853A1 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7C0262A211C93004853A1 /* VideoPlayerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +83,9 @@
 		8DE7C01B2A20FB74004853A1 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		8DE7C01D2A2100CD004853A1 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 		8DE7C01F2A2107DA004853A1 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		8DE7C0212A2109FE004853A1 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		8DE7C0232A211BA3004853A1 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		8DE7C0262A211C93004853A1 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		8DE7BFCF2A20B959004853A1 /* AfricanAnimals */ = {
 			isa = PBXGroup;
 			children = (
+				8DE7C0252A211C77004853A1 /* Helper */,
 				8DE7C00C2A20CD53004853A1 /* Extension */,
 				8DE7C0092A20CC60004853A1 /* Model */,
 				8DE7C0062A20C8D4004853A1 /* View */,
@@ -185,6 +192,8 @@
 				8DE7C0192A20F9C9004853A1 /* InsetFactView.swift */,
 				8DE7C01B2A20FB74004853A1 /* InsetMapView.swift */,
 				8DE7C01D2A2100CD004853A1 /* ExternalWebLinkView.swift */,
+				8DE7C0212A2109FE004853A1 /* VideoListItemView.swift */,
+				8DE7C0232A211BA3004853A1 /* VideoPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +214,14 @@
 				8DE7C00D2A20CD62004853A1 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		8DE7C0252A211C77004853A1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8DE7C0262A211C93004853A1 /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,14 +318,17 @@
 				8DE7C0122A20D53C004853A1 /* AnimalModel.swift in Sources */,
 				8DE7C0012A20C0F7004853A1 /* MapView.swift in Sources */,
 				8DE7C01C2A20FB74004853A1 /* InsetMapView.swift in Sources */,
+				8DE7C0272A211C93004853A1 /* VideoPlayerHelper.swift in Sources */,
 				8DE7BFD12A20B959004853A1 /* AfricanAnimalsApp.swift in Sources */,
 				8DE7C01E2A2100CD004853A1 /* ExternalWebLinkView.swift in Sources */,
 				8DE7BFFF2A20C0E0004853A1 /* VideoListView.swift in Sources */,
 				8DE7C0202A2107DA004853A1 /* VideoModel.swift in Sources */,
 				8DE7C0032A20C106004853A1 /* GalleryView.swift in Sources */,
 				8DE7C0182A20F151004853A1 /* InsetGalleryView.swift in Sources */,
+				8DE7C0222A2109FE004853A1 /* VideoListItemView.swift in Sources */,
 				8DE7C00E2A20CD62004853A1 /* CodableBundleExtension.swift in Sources */,
 				8DE7C0162A20EFD8004853A1 /* HeadingView.swift in Sources */,
+				8DE7C0242A211BA3004853A1 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
