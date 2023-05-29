@@ -40,6 +40,7 @@ struct VideoListView: View {
                 }
             }
         } //: NavigationView
+        .navigationSplitViewStyle(.prominentDetail)
     }
 }
 
